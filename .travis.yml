@@ -1,0 +1,36 @@
+language: python
+sudo: required
+python:
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+
+cache:
+  directories:
+    - $HOME/.theano
+    - $HOME/miniconda3
+
+addons:
+  apt_packages:
+    - pandoc
+
+before_install:
+  - . ./scripts/install_miniconda.sh
+  - sh -e /etc/init.d/xvfb start
+  - export DISPLAY=":99.0"
+  - export MKL_THREADING_LAYER=GNU
+
+install:
+  - . ./scripts/create_testenv.sh
+  - source activate testenv
+  - pip install -r requirements.txt
+  - pip install coveralls pytest-cov
+
+
+script:
+  - pytest -v --cov=correlator
+
+after_success:
+- coveralls

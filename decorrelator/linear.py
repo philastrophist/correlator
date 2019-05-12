@@ -3,8 +3,8 @@ import theano
 import theano.tensor as tt
 import numpy as np
 
-from correlator.base import BaseModel
-from correlator.estimation import find_mode
+from decorrelator.base import BaseModel
+from decorrelator.estimation import find_mode
 
 __all__ = ['LinearRelation']
 

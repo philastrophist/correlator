@@ -1,5 +1,6 @@
-[![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://img.shields.io/badge/python-3.7-blue.svg)
-[![License](https://img.shields.io/github/license/philastrophist/correlator.svg)](https://github.com/philastrophist/correlator/blob/develop/LICENSE.md)
+[![PyPI](https://img.shields.io/pypi/v/candid.svg)](https://pypi.python.org/pypi/candid/)
+[![License](https://img.shields.io/github/license/philastrophist/decorrelator.svg)](https://github.com/philastrophist/decorrelator/blob/master/LICENSE.md)
+[![Build Status](https://travis-ci.com/philastrophist/candid.svg?token=3fPC1Wwg7aekKMkBjGPa&branch=master)](https://travis-ci.com/philastrophist/candid)
 # Decorrelator
 
 Analysing correlations between parameters whilst controlling for the effects of others.

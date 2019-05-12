@@ -30,7 +30,7 @@ install:
 
 
 script:
-  - pytest -v --cov=correlator
+  - pytest -v --cov=decorrelator
 
 after_success:
 - coveralls

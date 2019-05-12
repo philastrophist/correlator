@@ -2,7 +2,7 @@ import numpy as np
 import pymc3 as pm
 import theano
 
-from correlator.estimation import find_mode
+from decorrelator.estimation import find_mode
 
 
 class BaseModel:

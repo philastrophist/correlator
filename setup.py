@@ -6,9 +6,9 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'candid'
-DESCRIPTION = 'Complete And Noiseless Distributions from Incomplete Data'
-URL = 'https://github.com/philastrophist/'
+NAME = 'decorrelator'
+DESCRIPTION = 'Easy-to-use Bayesian full and partial correlation estimator'
+URL = 'https://github.com/philastrophist/decorrelator'
 EMAIL = 'shaun.c.read@gmail.com'
 AUTHOR = 'philastrophist'
 

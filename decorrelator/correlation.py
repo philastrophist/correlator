@@ -7,7 +7,7 @@ from theano import scan, shared
 import theano
 theano.config.compute_test_value = "ignore"
 
-from correlator.base import BaseModel
+from decorrelator.base import BaseModel
 
 
 def _multivariate_normal_convolution_likelihood(model_covariance, model_mu, data_mu, data_covariance):

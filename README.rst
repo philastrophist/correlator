@@ -40,9 +40,9 @@ You may use them together as demonstrated in ``example.py`` or
 indivdually as shown in their home modules under
 ``if __name__ == "__main__"``
 
-.. |PyPI| image:: https://img.shields.io/pypi/v/candid.svg
-   :target: https://pypi.python.org/pypi/candid/
+.. |PyPI| image:: https://img.shields.io/pypi/v/decorrelator.svg
+   :target: https://pypi.python.org/pypi/decorrelator/
 .. |License| image:: https://img.shields.io/github/license/philastrophist/decorrelator.svg
    :target: https://github.com/philastrophist/decorrelator/blob/master/LICENSE.md
-.. |Build Status| image:: https://travis-ci.com/philastrophist/candid.svg?token=3fPC1Wwg7aekKMkBjGPa&branch=master
-   :target: https://travis-ci.com/philastrophist/candid
+.. |Build Status| image:: https://travis-ci.com/philastrophist/decorrelator.svg?token=3fPC1Wwg7aekKMkBjGPa&branch=master
+   :target: https://travis-ci.com/philastrophist/decorrelator

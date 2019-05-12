@@ -3,7 +3,7 @@ import numpy as np
 import pymc3 as pm
 from statsmodels.stats.moment_helpers import corr2cov
 
-from correlator.estimation import find_mode
+from decorrelator.estimation import find_mode
 
 N = 1000
 
